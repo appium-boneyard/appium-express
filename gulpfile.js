@@ -3,4 +3,4 @@
 var gulp = require('gulp'),
     boilerplate = require('appium-gulp-plugins').boilerplate.use(gulp);
 
-boilerplate({build: 'appium-server', jscs: false});
+boilerplate({build: 'appium-express', jscs: false});

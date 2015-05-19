@@ -1,5 +1,5 @@
 {
-  "name": "appium-server",
+  "name": "appium-express",
   "description": "HTTP server for Appium drivers",
   "keywords": [
     "appium"
@@ -9,10 +9,10 @@
   "license": "Apache License 2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/appium-server.git"
+    "url": "https://github.com/appium/appium-express.git"
   },
   "bugs": {
-    "url": "https://github.com/appium/appium-server/issues"
+    "url": "https://github.com/appium/appium-express/issues"
   },
   "engines": [
     "node"
