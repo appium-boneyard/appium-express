@@ -18,6 +18,14 @@ describe('server configuration', () => {
     configureServer(app, configureRoutes);
     app.use.callCount.should.equal(10);
   });
+
+  it('should reject if error thrown in configureRoutes parameter', async () => {
+    let configureRoutes = () => {
+      throw new Error("I'm Mr. MeeSeeks look at me!");
+    };
+    await server(configureRoutes, 8181).should.eventually.be
+           .rejectedWith("MeeSeeks");
+  });
 });
 describe('server', () => {
   let hwServer;
@@ -71,4 +79,3 @@ describe('server', () => {
     hwServer.close();
   });
 });
-
