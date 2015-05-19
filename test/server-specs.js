@@ -60,6 +60,13 @@ describe('server', () => {
     should.exist(err);
     err.message.should.contain("hahaha");
   });
+  it('should error if we try to start again on a port that is used', async () => {
+    await server(() => {}, 8181).should.eventually.be.rejectedWith(/EADDRINUSE/);
+  });
+  it('should error if we try to start on a bad hostname', async () => {
+    await server(() => {}, 8181, 'lolcathost').should.eventually.be.rejectedWith(/ENOTFOUND/);
+    await server(() => {}, 8181, '1.1.1.1').should.eventually.be.rejectedWith(/EADDRNOTAVAIL/);
+  });
   after(async () => {
     hwServer.close();
   });
