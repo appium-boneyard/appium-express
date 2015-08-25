@@ -25,14 +25,14 @@
   "dependencies": {
     "appium-logger": "^1.0.0",
     "babel-runtime": "5.5.5",
-    "bluebird": "^2.9.25",
     "body-parser": "^1.12.4",
     "colors": "^1.1.0",
     "express": "^4.12.4",
     "method-override": "^2.3.3",
     "morgan": "^1.5.3",
     "serve-favicon": "^2.2.1",
-    "source-map-support": "^0.2.10"
+    "source-map-support": "^0.2.10",
+    "swig": "^1.4.2"
   },
   "scripts": {
     "prepublish": "./node_modules/.bin/gulp prepublish",

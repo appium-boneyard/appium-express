@@ -13,10 +13,11 @@ chai.use(chaiAsPromised);
 
 describe('server configuration', () => {
   it('should actually use the middleware', () => {
-    let app = {use: sinon.spy()};
+    let app = {use: sinon.spy(), all: sinon.spy()};
     let configureRoutes = () => {};
     configureServer(app, configureRoutes);
     app.use.callCount.should.equal(10);
+    app.all.callCount.should.equal(2);
   });
 
   it('should reject if error thrown in configureRoutes parameter', async () => {
