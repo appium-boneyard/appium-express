@@ -4,9 +4,9 @@
   "keywords": [
     "appium"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "appium",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/appium/appium-express.git"
@@ -23,8 +23,8 @@
     "lib": "lib"
   },
   "dependencies": {
-    "appium-logger": "^1.0.0",
-    "babel-runtime": "5.5.5",
+    "appium-logger": "^2.0.0",
+    "babel-runtime": "=5.8.24",
     "body-parser": "^1.12.4",
     "colors": "^1.1.0",
     "express": "^4.12.4",
@@ -44,9 +44,7 @@
     "chai": "^2.3.0",
     "chai-as-promised": "^5.0.0",
     "gulp": "^3.8.11",
-    "mochawait": "^2.0.0",
     "request-promise": "^0.4.2",
-    "sinon": "^1.14.1",
-    "yargs": "^3.9.0"
+    "sinon": "^1.14.1"
   }
 }

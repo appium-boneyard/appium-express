@@ -6,7 +6,7 @@ import request from 'request-promise';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import sinon from 'sinon';
-import 'mochawait';
+
 
 const should = chai.should();
 chai.use(chaiAsPromised);
