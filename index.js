@@ -1,6 +1,6 @@
 // transpile:main
 
-import { appiumServer as server } from './lib/server';
+import { server } from './lib/server';
 
-export { server };
 
+export default server;
