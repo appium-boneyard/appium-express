@@ -2,9 +2,10 @@
   "name": "appium-express",
   "description": "HTTP server for Appium drivers",
   "keywords": [
-    "appium"
+    "appium",
+    "express"
   ],
-  "version": "0.0.7",
+  "version": "1.0.0",
   "author": "appium",
   "license": "Apache-2.0",
   "repository": {
