@@ -1,6 +1,6 @@
 // transpile:mocha
 
-import server from '../..';
+import server from '..';
 import { configureServer } from '../lib/server';
 import request from 'request-promise';
 import chai from 'chai';

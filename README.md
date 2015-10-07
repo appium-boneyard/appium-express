@@ -1,6 +1,7 @@
 ## appium-express
 
 [![Build Status](https://travis-ci.org/appium/appium-express.svg)](https://travis-ci.org/appium/appium-express)
+[![Coverage Status](https://coveralls.io/repos/appium/appium-express/badge.svg?branch=master&service=github)](https://coveralls.io/github/appium/appium-express?branch=master)
 
 [Express](http://expressjs.com/) server tuned for to serve [Appium](http://appium.io/).
 
