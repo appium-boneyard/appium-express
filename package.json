@@ -5,7 +5,7 @@
     "appium",
     "express"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "appium",
   "license": "Apache-2.0",
   "repository": {
@@ -31,7 +31,7 @@
     "express": "^4.13.3",
     "lodash": "^3.10.1",
     "method-override": "^2.3.5",
-    "mobile-json-wire-protocol": "^1.0.2",
+    "mobile-json-wire-protocol": "^1.0.3",
     "morgan": "^1.6.1",
     "serve-favicon": "^2.3.0",
     "source-map-support": "^0.3.2",
