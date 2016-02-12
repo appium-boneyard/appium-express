@@ -36,7 +36,7 @@ I am some page content
 
 </form>
 <span id="your_comments">
-  Your comments: {{ comment }}<br/>
+  Your comments: <%= comment %><br/>
 </span>
 &#x00F1;&#x2603;
 <script type="text/javascript">
@@ -72,7 +72,7 @@ I am some page content
     $("#clienttime").text(parseInt(new Date().getTime() / 1000));
   </script>
 
-  <p id="useragent">{{ userAgent }}</p>
+  <p id="useragent"><%= userAgent %></p>
 
 </body>
 </html>
