@@ -17,7 +17,7 @@ describe('server configuration', () => {
     let configureRoutes = () => {};
     configureServer(app, configureRoutes);
     app.use.callCount.should.equal(14);
-    app.all.callCount.should.equal(2);
+    app.all.callCount.should.equal(3);
   });
 
   it('should reject if error thrown in configureRoutes parameter', async () => {
